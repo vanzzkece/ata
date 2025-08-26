@@ -1,0 +1,14 @@
+{
+  "name": "wa-auto-invest",
+  "version": "1.0.0",
+  "description": "WhatsApp Auto Invest Bot (Baileys + Pairing Code)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "pino": "^9.3.2"
+  }
+}
