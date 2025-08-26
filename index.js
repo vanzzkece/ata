@@ -1,8 +1,8 @@
 import makeWASocket, { useMultiFileAuthState, fetchLatestBaileysVersion, Browsers } from "@whiskeysockets/baileys"
 import P from "pino"
 
-const groupTarget = "1203630xxxxxx@g.us" // ganti dengan JID grup target
-const nomorKamu = "628xxxxxx" // nomor WA kamu
+const groupTarget = "120363367020945690@g.us" // ganti dengan JID grup target
+const nomorKamu = "6289518562932" // nomor WA kamu
 
 async function startBot() {
   const { state, saveCreds } = await useMultiFileAuthState("session")
